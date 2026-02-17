@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: #0b1020;
+  color: #e2e8f0;
+  font-family: Arial, sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.wrap {
+  display: grid;
+  gap: 10px;
+}
+
+canvas {
+  border: 2px solid #334155;
+  image-rendering: pixelated;
+  background: #7ec8ff;
+}
+
+.help {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+code {
+  color: #93c5fd;
+}
